@@ -66,7 +66,7 @@ def convert(movement, position, cube_side, segment_length, stepper_length):
     return mov, pos
 
 import json
-f = r"C:\Users\Leo Kuchen\Documents\Skola\GA\Generate\Rörelsemönster\ptwo\ptwo_3.json"
+f = " <file path> "
 with open(f, "r") as file:
     data = file.read()
 
